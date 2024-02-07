@@ -1,5 +1,4 @@
-import { Box, Card, Flex, Heading, Image, SimpleGrid, Text } from '@chakra-ui/react'
-import { useState } from 'react'
+import { Box, Heading, Image, SimpleGrid } from '@chakra-ui/react'
 import ProjectCard from './ProjectCard';
 import Portrait from './assets/portrait.svg'
 
