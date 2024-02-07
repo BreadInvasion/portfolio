@@ -39,7 +39,7 @@ function App() {
   return (
     <Box textAlign={"center"}>
       <Heading marginTop={12} size={"4xl"}>Mark Haddleton</Heading>
-      <Image maxW={["70%", "50%", "25%"]} marginLeft={"auto"} marginRight={"auto"} borderRadius={20} src={Portrait}/>
+      <Image maxW={["70%", "50%", "30%", "25%"]} marginLeft={"auto"} marginRight={"auto"} borderRadius={20} src={Portrait}/>
       <SimpleGrid spacing={4} minChildWidth={"80"} maxWidth={["90%", "90%", "85%", "80%"]} justifyItems={"center"} marginLeft={"auto"} marginRight={"auto"} marginTop={8}>
         {projectInfo.map((value: Project) => {return <ProjectCard projectName={value.projectName} description={value.description} githubLink={value.githubLink} />})}
       </SimpleGrid>
